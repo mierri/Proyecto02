@@ -43,11 +43,11 @@ Este proyecto consiste en la implementación de un conjunto de ejercicios en el 
 
 ## ¿Qué es Jupyter Notebook?
 
-Jupyter Notebook es un entorno de trabajo interactivo web que permite desarrollar código en Python de manera dinámica, integrando bloques de código, texto, gráficas o imágenes en un mismo documento. Funciona a través de cualquier navegador web y también dentro de PyCharm.
+Jupyter Notebook es un entorno de trabajo interactivo web que permite desarrollar código en Python de manera dinámica, a la vez que integrar en un mismo documento tanto bloques de código como texto, gráficas o imágenes. Te permite editar y ejecutar documentos de notebook a través de cualquier navegador web, e incluso dentro de Pycharm.
 
 ## Instalar Python
 
-Para instalar Jupyter Notebook, es necesario tener Python instalado y agregado al PATH de Windows.
+Para instalar Jupyter Notebook es necesario que su computadora tenga instalado Python, y este se encuentre agregado al _PATH_ de Windows.
 
 ### Descargar Python de la página oficial
 
@@ -57,7 +57,7 @@ Para instalar Jupyter Notebook, es necesario tener Python instalado y agregado a
 
 ### Verifique que Python esté agregado en PATH
 
-Para verificar, puede usar la consola (cmd en Windows, Terminal en Mac) e ingresar el comando `python`. Si Python está correctamente instalado y en PATH, se abrirá el intérprete de Python.
+Para verificar, puede usar la consola (cmd en Windows, Terminal en Mac) e ingresar el comando `python`. Si Python está correctamente instalado y en PATH, se abrirá el intérprete de Python. De lo contrario, es probable que le aparezca el mensaje `'python' is not recognized as an internal or external command, operable program or batch file`. Si su caso es el segundo, visite esta página: [Agregar Python al PATH](https://www.scielo.org.mx/avaliacao/manual_marcacion/instalacion_markup_paths.html)
 
 ### Verifique que pip se haya instalado correctamente
 
