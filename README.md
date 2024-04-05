@@ -14,18 +14,18 @@ Este proyecto consiste en la implementación de un conjunto de ejercicios en el 
 
 ## Contenido
 
-[¿Qué es Jupyter Notebook?](#qué-es-jupyter-notebook)
-1. [Instalar Python](#instalar-python)
+1. [¿Qué es Jupyter Notebook?](#qué-es-jupyter-notebook)
+2. [Instalar Python](#instalar-python)
    1. [Descargar Python de la página oficial](#descargar-python-de-la-página-oficial)
    2. [Verifique que Python esté agregado en PATH](#verifique-que-python-esté-agregado-en-path)
-2. [Verifique que pip se haya instalado correctamente](#verifique-que-pip-se-haya-instalado-correctamente)
-3. [Instalar Jupyter](#instalar-jupyter)
-4. [Configuración de Jupyter](#configuración-de-jupyter)
-5. [Ejecución de Jupyter Notebook](#ejecución-de-jupyter-notebook)
+3. [Verifique que pip se haya instalado correctamente](#verifique-que-pip-se-haya-instalado-correctamente)
+4. [Instalar Jupyter](#instalar-jupyter)
+5. [Configuración de Jupyter](#configuración-de-jupyter)
+6. [Ejecución de Jupyter Notebook](#ejecución-de-jupyter-notebook)
    1. [Activar autollenado de código](#activar-autollenado-de-código)
-6. [Crea un Notebook](#crea-un-notebook)
-7. [Abra el Notebook del proyecto](#abra-el-notebook-del-proyecto)
-8. [Descripción y ejecución](#descripción-y-ejecución)
+7. [Crea un Notebook](#crea-un-notebook)
+8. [Abra el Notebook del proyecto](#abra-el-notebook-del-proyecto)
+9. [Descripción y ejecución](#descripción-y-ejecución)
    1. [Factorial de N](#factorial-de-n)
    2. [Fibonacci](#fibonacci)
    3. [Torres de Hanoi](#torres-de-hanoi)
@@ -36,7 +36,7 @@ Este proyecto consiste en la implementación de un conjunto de ejercicios en el 
    8. [Número Menor](#número-menor)
    9. [Número Combinatorio](#número-combinatorio)
    10. [Reversa de una Lista](#reversa-de-una-lista)
-9. [Distribución de Trabajo](#distribución-de-trabajo)
+9. [Comentarios Grupales](#comentarios-grupales)
 10. [Referencias Bibliográficas](#referencias-bibliográficas)
 
 ---
