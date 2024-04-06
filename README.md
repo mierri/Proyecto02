@@ -14,7 +14,7 @@ Este proyecto consiste en la implementación de un conjunto de ejercicios en el 
 
 ## Contenido 🔎
 
-1. [¿Qué es Jupyter Notebook? ☄️](#que-es-jupyter-notebook)
+1. [¿Qué es Jupyter Notebook? ☄️](#qué-es-jupyter-notebook)
 2. [Qué es Racket?](#que-es-racket)
    1. [iRacket](#iracket)
 2. [Instalar Python](#instalar-python)
