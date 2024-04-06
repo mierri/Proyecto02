@@ -178,7 +178,7 @@ Finalmente haga click en `Upload`. Ahora, podrá ver el archivo entre los demás
 
 Otra manera de abrir el notebook directamente desde GitHub, es de la siguiente manera.
 
-1. Abra el proyecto en GitHub. [https://github.com/mierri/Proyecto02/edit/main/Proy2_E6.ipynb](https://github.com/mierri/Proyecto02/edit/main/Proy2_E6.ipynb)
+1. Abra el proyecto en GitHub. [https://github.com/mierri/Proyecto02/edit/main/Proy2_E6.ipynb](https://github.com/mierri/Proyecto02/blob/main/Proy2_E6.ipynb)
 2. En el link anterior, cambie `github.com` por `githubtocolab.com`
 3. Se abrirá el notebook en el navegador. Podrá ejecutarlo e ingresar datos para probarlo.
 
