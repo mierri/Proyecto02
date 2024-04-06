@@ -127,5 +127,17 @@ Si su caso es el segundo, visite esta página: [Agregar Racket al PATH](https://
 
 ### Instalando y registrando la biblioteca iRacket
 
-`pip` es necesario para la instalación de Jupyter. Para verificar su instalación, use el comando `python -m pip --version` en la consola.
+Para instalar la biblioteca de iRacket, solo basta con ingresar el siguiente comando en la terminal:
+
+```
+raco pkg install iracket
+```
+Después de instalar la biblioteca, debe registrar el kernel iRacket con Jupyter. El registro del kernel se puede hacer a través del siguiente comando en la terminal:
+
+```
+raco iracket install
+```
+
+
+
 
