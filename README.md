@@ -17,29 +17,29 @@ Este proyecto consiste en la implementación de un conjunto de ejercicios en el 
 1. [¿Qué es Jupyter Notebook?](#qué-es-jupyter-notebook)
 2. [Qué es Racket?](#qué-es-racket)
    1. [iRacket](#iracket)
-2. [Instalar Python](#instalar-python)
-   1. [Descargar Python de la página oficial](#descargar-python-de-la-pagina-oficial)
-   2. [Verifique que Python esté agregado en PATH](#verifique-que-python-este-agregado-en-path)
+2. [Instalar Python 🛠](#instalar-python-🛠)
+   1. [Descargar Python de la página oficial](#descargar-python-de-la-página-oficial)
+   2. [Verifique que Python esté agregado en PATH](#verifique-que-python-esté-agregado-en-path)
    3. [Verifique que pip se haya instalado correctamente](#verifique-que-pip-se-haya-instalado-correctamente)
 3. [Instalar Racket y iRacket](#instalar-racket-y-iracket)
-   1. [Descargar Racket de la página oficial](#descargar-racket-de-la-pagina-oficial)
-   2. [Verifique que Racket esté agregado en PATH](#verifique-que-racket-este-agregado-en-path)
+   1. [Descargar Racket de la página oficial](#descargar-racket-de-la-página-oficial)
+   2. [Verifique que Racket esté agregado en PATH](#verifique-que-racket-esté-agregado-en-path)
    3. [Instalando y registrando la biblioteca iRacket](#instalando-y-registrando-la-biblioteca-iracket)
 4. [Instalar Jupyter](#instalar-jupyter)
-5. [Ejecución de Jupyter Notebook](#ejecucion-de-jupyter-notebook)
+5. [Ejecución de Jupyter Notebook](#ejecución-de-jupyter-notebook)
 6. [Crea un Notebook](#crea-un-notebook)
 7. [Abra el Notebook del proyecto](#abra-el-notebook-del-proyecto)
-8. [Descripción y ejecución](#descripcion-y-ejecucion)
-   1. [Número Combinatorio](#numero-combinatorio)
-   2. [Máximo Común Divisor de Números Negativos](#máximo-común-divisor-de-numeros-negativos)
-   3. [Generación de Lista de Números Primos](#generación-de-lista-de-numeros-primos)
-   4. [Búsqueda en Lista](#busqueda-en-lista)
-   5. [Inversión de Lista](#inversion-de-lista)
-   6. [Eliminación de Elemento de una Lista](#elimina-elem-lista)
-   7. [Detección de Palíndromos](#palindromos)
-   8. [Suma de Dígitos](#suma-digitos)
-   9. [Conversión de Decimal a Binario](#decimal-binario)
-   10. [Cálculo de PI mediante la Serie de Leibniz](#serie-leibniz)
+8. [Descripción y ejecución](#descripción-y-ejecución)
+   1. [Número Combinatorio](#número-combinatorio)
+   2. [Máximo Común Divisor de Números Negativos](#máximo-común-divisor-de-números-negativos)
+   3. [Generación de Lista de Números Primos](#generación-de-lista-de-números-primos)
+   4. [Búsqueda en Lista](#búsqueda-en-lista)
+   5. [Inversión de Lista](#inversión-de-lista)
+   6. [Eliminación de Elemento de una Lista](#eliminación-de-elemento-de-una-lista)
+   7. [Detección de Palíndromos](#detección-de-palíndromos)
+   8. [Suma de Dígitos](#suma-de-dígitos)
+   9. [Conversión de Decimal a Binario](#conversión-de-decimal-a-binario)
+   10. [Cálculo de PI mediante la Serie de Leibniz](#cálculo-de-pi-mediante-la-serie-de-leibniz)
 9. [Comentarios Grupales](#comentarios-grupales)
 10. [Referencias Bibliográficas](#referencias-bibliográficas)
 
@@ -51,7 +51,7 @@ Jupyter Notebook es un entorno de trabajo interactivo web que permite desarrolla
 
 ---
 
-## ¿Qué es Racket? 🚀
+## ¿Qué es Racket? 
 
 Racket es un lenguaje de programación de amplio espectro de la familia de Lisp y Scheme. Uno de sus principales objetivos tras su diseño es posibilitar la creación de nuevos lenguajes o dialectos. El lenguaje es usado en una variedad de entornos tales como scripting, enseñanza en ingeniería informática o la investigación.
 
@@ -63,7 +63,7 @@ iRacket es una implementación del kernel de Racket para Jupyter, lo que permite
 
 ---
 
-## Instalar Python 🛠️
+## Instalar Python 🛠
 
 Para instalar Jupyter Notebook es necesario que su computadora tenga instalado Python, y este se encuentre agregado al _PATH_ de Windows.
 
