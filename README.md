@@ -17,7 +17,7 @@ Este proyecto consiste en la implementación de un conjunto de ejercicios en el 
 1. [¿Qué es Jupyter Notebook?](#qué-es-jupyter-notebook)
 2. [Qué es Racket?](#qué-es-racket)
    1. [iRacket](#iracket)
-2. [Instalar Python 🛠](#instalar-python-🛠)
+2. [Instalar Python](#instalar-python)
    1. [Descargar Python de la página oficial](#descargar-python-de-la-página-oficial)
    2. [Verifique que Python esté agregado en PATH](#verifique-que-python-esté-agregado-en-path)
    3. [Verifique que pip se haya instalado correctamente](#verifique-que-pip-se-haya-instalado-correctamente)
@@ -63,7 +63,7 @@ iRacket es una implementación del kernel de Racket para Jupyter, lo que permite
 
 ---
 
-## Instalar Python 🛠
+## Instalar Python
 
 Para instalar Jupyter Notebook es necesario que su computadora tenga instalado Python, y este se encuentre agregado al _PATH_ de Windows.
 
@@ -88,7 +88,7 @@ Si su caso es el segundo, visite esta página: [Agregar Python al PATH](https://
 
 ---
 
-## Instalar Racket y iRacket 🛠️
+## Instalar Racket y iRacket
 
 Para poder utilizar la biblioteca de iRacket en conjunto con Jupyter Notebook, es necesario tener instalado Racket.
 
@@ -139,7 +139,7 @@ raco iracket install
 
 ---
 
-## Instalar Jupyter 🛠️
+## Instalar Jupyter
 
 Ahora que tenemos instalado Python correctamente, será mucho más sencillo instalar Jupyter. Para ello, abra una nueva consola. A continuación, ingrese el comando:
 
@@ -150,7 +150,7 @@ Automáticamente, Python descargará e instalará las librerías necesarias para
 
 ---
 
-## Ejecución de Jupyter Notebook ⚡
+## Ejecución de Jupyter Notebook
 
 Al ser Jupyter Notebook un entorno de desarrollo basado en web requiere de un servidor web que atienda las peticiones. El servidor se levanta cuando ejecuta el Jupyter Notebook, se abre una consola de servicios y el Notebook Dashboard. Para ejecutar el Notebook, abra la consola e ingrese:
 
@@ -161,13 +161,13 @@ Se iniciará el servidor y se abrirá el Notebook Dashboard en la pestaña `File
 
 ---
 
-## Crea un Notebook 📙
+## Crea un Notebook
 
 Para crear un notebook con el kernel de iRacket, en la pestaña de `Files` del Notebook Dashboard, de click en `New` y luego en `Racket`. Se generará una libreta en modo de edición, ahora solo pruebe escribir algo de código. La opción de `Racket` está disponible ya que anteriormente registramos el kernel de iRacket con Jupyter. Si la opción de crear un notebook con el kernel de Racket no está disponible, regrese al apartado: [Instalando y registrando la biblioteca iRacket](#instalando-y-registrando-la-biblioteca-iracket).
 
 ---
 
-## Abra el Notebook del proyecto ⚡
+## Abra el Notebook del proyecto
 
 Ahora, importaremos el Notebook del proyecto para ejecutarlo en Jupyter. Primero, regrese a la pestaña de `Files` de Jupyter. A continuación, de click en `Upload` y se abrirá su explorador de archivos. Seleccione el archivo del proyecto y de click en `Abrir`.
 
@@ -175,13 +175,13 @@ Finalmente haga click en `Upload`. Ahora, podrá ver el archivo entre los demás
 
 ---
 
-## Descripción y ejecución 👾
+## Descripción y ejecución
 
 La recursividad es una técnica en programación que permite que una función se llame a sí misma para resolver un problema. Esta técnica se utiliza comúnmente en algoritmos que involucran la repetición de una acción o la exploración de una estructura de datos.
 
 En este proyecto, nos enfocaremos en crear programas en Racket que utilicen la recursividad para resolver problemas específicos. A través de la implementación de algoritmos recursivos, podremos explorar los beneficios y limitaciones de esta técnica en diferentes escenarios.
 
-### Número Combinatorio ✨
+### Número Combinatorio
 
 > **Datos de entrada**: `n`,es el número total de elementos, y `k` el número de elementos a seleccinar.  
 **Datos de salida**: El número de combinaciones totales de `n` en `k`.
