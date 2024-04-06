@@ -14,7 +14,7 @@ Este proyecto consiste en la implementación de un conjunto de ejercicios en el 
 
 ## Contenido 🔎
 
-1. [¿Qué es Jupyter Notebook? ☄️](#qué-es-jupyter-notebook-☄️)
+1. [¿Qué es Jupyter Notebook?](#que-es-jupyter-notebook)
 2. [Qué es Racket?](#que-es-racket)
    1. [iRacket](#iracket)
 2. [Instalar Python](#instalar-python)
@@ -45,7 +45,7 @@ Este proyecto consiste en la implementación de un conjunto de ejercicios en el 
 
 ---
 
-## ¿Qué es Jupyter Notebook? ☄️
+## ¿Qué es Jupyter Notebook?
 
 Jupyter Notebook es un entorno de trabajo interactivo web que permite desarrollar código en Python de manera dinámica, a la vez que integrar en un mismo documento tanto bloques de código como texto, gráficas o imágenes. Te permite editar y ejecutar documentos de notebook a través de cualquier navegador web, e incluso dentro de Pycharm.
 
