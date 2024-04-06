@@ -84,7 +84,10 @@ Si su caso es el segundo, visite esta página: [Agregar Python al PATH](https://
 
 ### Verifique que pip se haya instalado correctamente
 
-`pip` es necesario para la instalación de Jupyter. Para verificar su instalación, use el comando `python -m pip --version` en la consola.
+`pip` es necesario para la instalación de Jupyter. Para verificar su instalación, use el siguiente comando en la consola:
+```
+python -m pip --version
+```
 
 ---
 
