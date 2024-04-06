@@ -12,59 +12,58 @@ Este proyecto consiste en la implementación de un conjunto de ejercicios en el 
 
 ---
 
-## Contenido
+## Contenido 🔎
 
-1. [¿Qué es Jupyter Notebook?](#qué-es-jupyter-notebook)
-2. [Qué es Racket?](#qué-es-racket)
+1. [¿Qué es Jupyter Notebook? ☄️](#que-es-jupyter-notebook)
+2. [Qué es Racket?](#que-es-racket)
    1. [iRacket](#iracket)
 2. [Instalar Python](#instalar-python)
-   1. [Descargar Python de la página oficial](#descargar-python-de-la-página-oficial)
-   2. [Verifique que Python esté agregado en PATH](#verifique-que-python-esté-agregado-en-path)
+   1. [Descargar Python de la página oficial](#descargar-python-de-la-pagina-oficial)
+   2. [Verifique que Python esté agregado en PATH](#verifique-que-python-este-agregado-en-path)
    3. [Verifique que pip se haya instalado correctamente](#verifique-que-pip-se-haya-instalado-correctamente)
 3. [Instalar Racket y iRacket](#instalar-racket-y-iracket)
-   1. [Descargar Racket de la página oficial](#descargar-racket-de-la-página-oficial)
-   2. [Verifique que Racket esté agregado en PATH](#verifique-que-racket-esté-agregado-en-path)
-   3. [Instalando y registrando la biblioteca iRacket](#instalando-la-biblioteca-iracket)
+   1. [Descargar Racket de la página oficial](#descargar-racket-de-la-pagina-oficial)
+   2. [Verifique que Racket esté agregado en PATH](#verifique-que-racket-este-agregado-en-path)
+   3. [Instalando y registrando la biblioteca iRacket](#instalando-y-registrando-la-biblioteca-iracket)
 4. [Instalar Jupyter](#instalar-jupyter)
-5. [Configuración de Jupyter](#configuración-de-jupyter)
-6. [Ejecución de Jupyter Notebook](#ejecución-de-jupyter-notebook)
-7. [Crea un Notebook](#crea-un-notebook)
-8. [Abra el Notebook del proyecto](#abra-el-notebook-del-proyecto)
-9. [Descripción y ejecución](#descripción-y-ejecución)
-   1. [Factorial de N](#factorial-de-n)
-   2. [Fibonacci](#fibonacci)
-   3. [Torres de Hanoi](#torres-de-hanoi)
-   4. [Multiplicación Entera](#multiplicación-entera)
-   5. [Exponenciación Entera](#exponenciación-entera)
-   6. [Máximo Común Divisor](#máximo-común-divisor)
-   7. [Número Mayor](#número-mayor)
-   8. [Número Menor](#número-menor)
-   9. [Número Combinatorio](#número-combinatorio)
-   10. [Reversa de una Lista](#reversa-de-una-lista)
-10. [Comentarios Grupales](#comentarios-grupales)
-11. [Referencias Bibliográficas](#referencias-bibliográficas)
+5. [Ejecución de Jupyter Notebook](#ejecucion-de-jupyter-notebook)
+6. [Crea un Notebook](#crea-un-notebook)
+7. [Abra el Notebook del proyecto](#abra-el-notebook-del-proyecto)
+8. [Descripción y ejecución](#descripcion-y-ejecucion)
+   1. [Número Combinatorio](#numero-combinatorio)
+   2. [Máximo Común Divisor de Números Negativos](#máximo-común-divisor-de-numeros-negativos)
+   3. [Generación de Lista de Números Primos](#generación-de-lista-de-numeros-primos)
+   4. [Búsqueda en Lista](#busqueda-en-lista)
+   5. [Inversión de Lista](#inversion-de-lista)
+   6. [Eliminación de Elemento de una Lista](#elimina-elem-lista)
+   7. [Detección de Palíndromos](#palindromos)
+   8. [Suma de Dígitos](#suma-digitos)
+   9. [Conversión de Decimal a Binario](#decimal-binario)
+   10. [Cálculo de PI mediante la Serie de Leibniz](#serie-leibniz)
+9. [Comentarios Grupales](#comentarios-grupales)
+10. [Referencias Bibliográficas](#referencias-bibliográficas)
 
 ---
 
-## ¿Qué es Jupyter Notebook?
+## ¿Qué es Jupyter Notebook? ☄️
 
 Jupyter Notebook es un entorno de trabajo interactivo web que permite desarrollar código en Python de manera dinámica, a la vez que integrar en un mismo documento tanto bloques de código como texto, gráficas o imágenes. Te permite editar y ejecutar documentos de notebook a través de cualquier navegador web, e incluso dentro de Pycharm.
 
 ---
 
-## ¿Qué es Racket?
+## ¿Qué es Racket? 🚀
 
 Racket es un lenguaje de programación de amplio espectro de la familia de Lisp y Scheme. Uno de sus principales objetivos tras su diseño es posibilitar la creación de nuevos lenguajes o dialectos. El lenguaje es usado en una variedad de entornos tales como scripting, enseñanza en ingeniería informática o la investigación.
 
 La plataforma nos ofrece la herramienta `DrRacket`, un entorno de desarrollo integrado programado en Racket, que nos facilitará la tarea de programar en Racket. También nos ofrece `raco`, un herramienta para la línea de comandos que nos permitirá instalar paquetes o compilar librerías.
 
-### iRacket
+### iRacket 
 
 iRacket es una implementación del kernel de Racket para Jupyter, lo que permite la programación interactiva estilo bloc de notas con Racket. Esta biblioteca facilita la creación de documentos interactivos que combinan código ejecutable y visualizaciones en un solo lugar. Con iRacket, los usuarios pueden aprovechar las capacidades de Jupyter para explorar y experimentar con código Racket de manera fluida y colaborativa.
 
 ---
 
-## Instalar Python
+## Instalar Python 🛠️
 
 Para instalar Jupyter Notebook es necesario que su computadora tenga instalado Python, y este se encuentre agregado al _PATH_ de Windows.
 
@@ -89,19 +88,19 @@ Si su caso es el segundo, visite esta página: [Agregar Python al PATH](https://
 
 ---
 
-## Instalar Racket y iRacket
+## Instalar Racket y iRacket 🛠️
 
 Para poder utilizar la biblioteca de iRacket en conjunto con Jupyter Notebook, es necesario tener instalado Racket.
 
 ### Descargar Racket de la página oficial
 
-1. Visitar la página de descargas de Racket: [https://www.python.org/](https://download.racket-lang.org/)
-2. Seleccionar la versión deseado para el sistema operativo de su conveniencia.
+1. Visitar la página de descargas de Racket: [https://download.racket-lang.org/](https://download.racket-lang.org/)
+2. Seleccionar la versión deseada para el sistema operativo de su conveniencia.
 3. Ejecutar el archivo `.exe` descargado y seguir los pasos del instalador.
 
 ### Verifique que Racket esté agregado en PATH
 
-Para verificar, puede usar la consola (cmd en Windows, Terminal en Mac) e ingresar el comando `raco`. Si Racket está correctamente instalado y en PATH, le aparecerá el siguiente mensaje:
+Para verificar, puede usar la consola (cmd en Windows, Terminal en Mac) e ingresar el comando `raco`. Si Racket está correctamente instalado y en el PATH, le aparecerá el siguiente mensaje:
 
 ```
 Usage: raco <command> <option> ... <arg> ...
@@ -136,6 +135,95 @@ Después de instalar la biblioteca, debe registrar el kernel iRacket con Jupyter
 
 ```
 raco iracket install
+```
+
+---
+
+## Instalar Jupyter 🛠️
+
+Ahora que tenemos instalado Python correctamente, será mucho más sencillo instalar Jupyter. Para ello, abra una nueva consola. A continuación, ingrese el comando:
+
+```
+pip install notebook
+```
+Automáticamente, Python descargará e instalará las librerías necesarias para utilizar Jupyter.
+
+---
+
+## Ejecución de Jupyter Notebook ⚡
+
+Al ser Jupyter Notebook un entorno de desarrollo basado en web requiere de un servidor web que atienda las peticiones. El servidor se levanta cuando ejecuta el Jupyter Notebook, se abre una consola de servicios y el Notebook Dashboard. Para ejecutar el Notebook, abra la consola e ingrese:
+
+```
+jupyter notebook
+```
+Se iniciará el servidor y se abrirá el Notebook Dashboard en la pestaña `Files`.
+
+---
+
+## Crea un Notebook 📙
+
+Para crear un notebook con el kernel de iRacket, en la pestaña de `Files` del Notebook Dashboard, de click en `New` y luego en `Racket`. Se generará una libreta en modo de edición, ahora solo pruebe escribir algo de código. La opción de `Racket` está disponible ya que anteriormente registramos el kernel de iRacket con Jupyter. Si la opción de crear un notebook con el kernel de Racket no está disponible, regrese al apartado: [Instalando y registrando la biblioteca iRacket](#instalando-y-registrando-la-biblioteca-iracket).
+
+---
+
+## Abra el Notebook del proyecto ⚡
+
+Ahora, importaremos el Notebook del proyecto para ejecutarlo en Jupyter. Primero, regrese a la pestaña de `Files` de Jupyter. A continuación, de click en `Upload` y se abrirá su explorador de archivos. Seleccione el archivo del proyecto y de click en `Abrir`.
+
+Finalmente haga click en `Upload`. Ahora, podrá ver el archivo entre los demás. Haga click para abrirlo. Ahora, en la siguiente sección se describirá cada ejercicio del proyecto, así como algunos casos prueba.
+
+---
+
+## Descripción y ejecución 👾
+
+La recursividad es una técnica en programación que permite que una función se llame a sí misma para resolver un problema. Esta técnica se utiliza comúnmente en algoritmos que involucran la repetición de una acción o la exploración de una estructura de datos.
+
+En este proyecto, nos enfocaremos en crear programas en Racket que utilicen la recursividad para resolver problemas específicos. A través de la implementación de algoritmos recursivos, podremos explorar los beneficios y limitaciones de esta técnica en diferentes escenarios.
+
+### Número Combinatorio ✨
+
+> **Datos de entrada**: `n`,es el número total de elementos, y `k` el número de elementos a seleccinar.  
+**Datos de salida**: El número de combinaciones totales de `n` en `k`.
+
+Este código es una implementación de la fórmula matemática para calcular el número combinatorio de $n$ en $k$, también conocido como coeficiente binomial.
+
+Para elegir $k$ elementos de un conjunto de $n$ elementos, podemos tomar un elemento específico como parte de esos $k$ elementos o no. Si tomamos un elemento específico como parte de los $k$ elementos, entonces debemos elegir $k-1$ elementos de los $n-1$ elementos restantes. Si no tomamos ese elemento específico como parte de los $k$ elementos, entonces debemos elegir $k$ elementos de los $n-1$ elementos restantes.
+
+Al sumar estas dos opciones, obtenemos el número total de formas de elegir $k$ elementos de un conjunto de $n$ elementos. Y debido a que la fórmula se define recursivamente, podemos utilizarla para calcular el número combinatorio de cualquier par de valores $n$ y $k$. 
+
+Recursivamente, esto es: $C_{n, k}=C_{n-1,~k-1}+C_{n-1,~k}$
+
+La función definida al inicio, `combinaciones`, utiliza recursión para calcular el número combinatorio. Si $k=0 \vee k=n$, entonces retorna $1$, porque la fórmula combinatoria de un conjunto vacío o del conjunto completo siempre es $1$. De lo contrario, utiliza la fórmula recursiva mencionada anteriormente.
+
+El programa luego solicita al usuario que ingrese los valores de `n` y `k`, y los valida para asegurarse de que no sean números negativos. Si $k$ es mayor que $n$, significa que el número combinatorio no está definido y se imprime un mensaje que indica esto. Si $k$ es menor o igual que $n$, el programa utiliza la función `combinaciones` para calcular el número combinatorio y lo imprime en pantalla.
+
+#### Código y casos de prueba
+
+``` racket
+(define (C n k)
+  (if (or (< n 0) (< k 0)) 
+      (displayln "Solo números positivos") 
+      (if (= k 0)
+          1
+          (if (= n k)
+              1
+              (if (> k n)
+                 (displayln "Está combinación no está definida, n debe ser mayor a k")
+                  (+ (C (- n 1) (- k 1))  (C (- n 1 ) k)) 
+              )
+          )
+      )
+  )
+)
+
+(display "Evaluación del número combinatorio C(n,k): ") (newline)
+(display "Introduzca n: ")
+(let ((n (read)))
+  (display "Introduzca k: ")
+  (let ((k (read)))
+    (display "C(n, k) = ")
+    (display (C n k))))
 ```
 
 
