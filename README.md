@@ -176,6 +176,12 @@ Ahora, importaremos el Notebook del proyecto para ejecutarlo en Jupyter. Primero
 
 Finalmente haga click en `Upload`. Ahora, podrá ver el archivo entre los demás. Haga click para abrirlo. Ahora, en la siguiente sección se describirá cada ejercicio del proyecto, así como algunos casos prueba.
 
+Otra manera de abrir el notebook directamente desde GitHub, es de la siguiente manera.
+
+1. Abra el proyecto en GitHub. [https://github.com/mierri/Proyecto02/edit/main/Proy2_E6.ipynb](https://github.com/mierri/Proyecto02/edit/main/Proy2_E6.ipynb)
+2. En el link anterior, cambie `github.com` por `githubtocolab.com`
+3. Se abrirá 
+
 ---
 
 ## Descripción y ejecución
