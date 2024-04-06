@@ -21,7 +21,7 @@ Este proyecto consiste en la implementación de un conjunto de ejercicios en el 
    1. [Descargar Python de la página oficial](#descargar-python-de-la-página-oficial)
    2. [Verifique que Python esté agregado en PATH](#verifique-que-python-esté-agregado-en-path)
    3. [Verifique que pip se haya instalado correctamente](#verifique-que-pip-se-haya-instalado-correctamente)
-3. [Instalar Racket y iRacket](#instalar-racket)
+3. [Instalar Racket y iRacket](#instalar-racket-y-iracket)
    1. [Descargar Racket de la página oficial](#descargar-racket-de-la-página-oficial)
    2. [Verifique que Racket esté agregado en PATH](#verifique-que-racket-esté-agregado-en-path)
    3. [Instalando y registrando la biblioteca iRacket](#instalando-la-biblioteca-iracket)
@@ -123,9 +123,9 @@ De lo contrario, es probable que le aparezca el mensaje:
 'raco' is not recognized as an internal or external command,
 operable program or batch file.
 ```
-Si su caso es el segundo, visite esta página: [Agregar Python al PATH](https://www.scielo.org.mx/avaliacao/manual_marcacion/instalacion_markup_paths.html)
+Si su caso es el segundo, visite esta página: [Agregar Racket al PATH](https://docs.racket-lang.org/pollen/Installation.html#(part._.How_to_install))
 
-### Verifique que pip se haya instalado correctamente
+### Instalando y registrando la biblioteca iRacket
 
 `pip` es necesario para la instalación de Jupyter. Para verificar su instalación, use el comando `python -m pip --version` en la consola.
 
