@@ -820,3 +820,37 @@ Introduzca un número entero positivo para las iteraciones de la serie de Leibni
  100000
 El valor aproximado de PI después de 100000 iteraciones es: 3.141602653489794
 ```
+
+---
+
+## Comentarios Grupales
+
+### Dificultades Encontradas
+
+Este proyecto ha sido tanto un desafío como una oportunidad de aprendizaje, permitiéndonos explorar en profundidad el paradigma de la programación funcional y el manejo del lenguaje Racket dentro de un entorno Jupyter Notebook.
+
+Estamos más familiarizados con los paradigmas de programación imperativos, por lo que adaptarnos al enfoque funcional, donde las funciones y la inmutabilidad son la norma, fue un reto.
+
+Aunque Racket es un lenguaje poderoso y flexible, su sintaxis y enfoque fueron nuevos para nosotros. Familiarizarnos con un lenguaje prefijo, y entender cómo aprovechar sus capacidades para resolver problemas fue un proceso que requirió tiempo y paciencia.
+
+La depuración en Racket, especialmente dentro de DrRacket, presentó sus propias complicaciones. Aprender a interpretar los mensajes de error y a utilizar estrategias efectivas de debugging fue esencial para avanzar en el proyecto.
+
+### Aprendizajes Obtenidos:
+
+Sin embargo, este proyecto nos permitió comprender realmente los principios de la programación funcional, como la pureza de funciones, el uso extensivo de la recursividad, y el manejo de listas y estructuras de datos inmutables de manera eficiente.
+
+ A través de la práctica y la experimentación, adquirimos una sólida comprensión de Racket. Aprendimos a utilizar sus características, lo que nos permitió entender su función para la creación y manipulación de nuevos lenguajes o dialectos.
+
+En conclusión, este proyecto no solo nos permitió aplicar un nuevo paradigma de programación, sino que también enriqueció nuestro entendimiento teórico y práctico de la programación funcional.
+
+---
+
+## Referencias Bibliográficas
+
+1. Installation. (n.d.). Pip Documentation v23.1.2. [https://pip.pypa.io/en/stable/installation/](https://pip.pypa.io/en/stable/installation/)
+2. Project Jupyter. (2015). Install and Use. Jupyter. [https://docs.jupyter.org/en/latest/install.html](https://docs.jupyter.org/en/latest/install.html)
+3. Project Jupyter. (2015). Running the Notebook. Jupyter. [https://docs.jupyter.org/en/latest/running.html](https://docs.jupyter.org/en/latest/running.html)
+4. Python.org. (2023, May 11). Python Setup and Usage. Python Documentation. [https://docs.python.org/3/using/index.html](https://docs.python.org/3/using/index.html)
+5. Racket documentation. (s. f.). [https://docs.racket-lang.org/](https://docs.racket-lang.org/)
+6. Recursividad (artículo) | Algoritmos (n.d.). Khan Academy. [https://es.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/recursion](https://es.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/recursion)
+
