@@ -50,6 +50,8 @@ Este proyecto consiste en la implementación de un conjunto de ejercicios en el 
 
 Jupyter Notebook es un entorno de trabajo interactivo web que permite desarrollar código en Python de manera dinámica, a la vez que integrar en un mismo documento tanto bloques de código como texto, gráficas o imágenes. Te permite editar y ejecutar documentos de notebook a través de cualquier navegador web, e incluso dentro de Pycharm.
 
+---
+
 ## ¿Qué es Racket?
 
 Racket es un lenguaje de programación de amplio espectro de la familia de Lisp y Scheme. Uno de sus principales objetivos tras su diseño es posibilitar la creación de nuevos lenguajes o dialectos. El lenguaje es usado en una variedad de entornos tales como scripting, enseñanza en ingeniería informática o la investigación.
@@ -60,6 +62,8 @@ La plataforma nos ofrece la herramienta `DrRacket`, un entorno de desarrollo int
 
 iRacket es una implementación del kernel de Racket para Jupyter, lo que permite la programación interactiva estilo bloc de notas con Racket. Esta biblioteca facilita la creación de documentos interactivos que combinan código ejecutable y visualizaciones en un solo lugar. Con iRacket, los usuarios pueden aprovechar las capacidades de Jupyter para explorar y experimentar con código Racket de manera fluida y colaborativa.
 
+---
+
 ## Instalar Python
 
 Para instalar Jupyter Notebook es necesario que su computadora tenga instalado Python, y este se encuentre agregado al _PATH_ de Windows.
@@ -68,7 +72,7 @@ Para instalar Jupyter Notebook es necesario que su computadora tenga instalado P
 
 1. Visitar [https://www.python.org/](https://www.python.org/).
 2. Ir a la pestaña de descargas y seleccionar la versión deseada.
-3. Ejecutar el archivo .exe descargado, asegurándose de seleccionar la opción "Add Python.exe to PATH" durante la instalación.
+3. Ejecutar el archivo `.exe` descargado, asegurándose de seleccionar la opción "Add Python.exe to PATH" durante la instalación.
 
 ### Verifique que Python esté agregado en PATH
 
@@ -83,6 +87,45 @@ Si su caso es el segundo, visite esta página: [Agregar Python al PATH](https://
 
 `pip` es necesario para la instalación de Jupyter. Para verificar su instalación, use el comando `python -m pip --version` en la consola.
 
+---
+
 ## Instalar Racket y iRacket
 
+Para poder utilizar la biblioteca de iRacket en conjunto con Jupyter Notebook, es necesario tener instalado Racket.
+
+### Descargar Racket de la página oficial
+
+1. Visitar la página de descargas de Racket: [https://www.python.org/](https://download.racket-lang.org/)
+2. Seleccionar la versión deseado para el sistema operativo de su conveniencia.
+3. Ejecutar el archivo `.exe` descargado y seguir los pasos del instalador.
+
+### Verifique que Racket esté agregado en PATH
+
+Para verificar, puede usar la consola (cmd en Windows, Terminal en Mac) e ingresar el comando `raco`. Si Racket está correctamente instalado y en PATH, le aparecerá el siguiente mensaje:
+
+```
+Usage: raco <command> <option> ... <arg> ...
+
+Frequently used commands:
+  docs                 search and view documentation
+  make                 compile source to bytecode
+  setup                install and build libraries and documentation
+  pkg                  manage packages
+  exe                  create executable
+  test                 run tests associated with files/directories
+
+A command can be specified by an unambiguous prefix.
+See `raco help' for a complete list of commands.
+See `raco help <command>' for help on a command.
+```
+De lo contrario, es probable que le aparezca el mensaje:
+```
+'raco' is not recognized as an internal or external command,
+operable program or batch file.
+```
+Si su caso es el segundo, visite esta página: [Agregar Python al PATH](https://www.scielo.org.mx/avaliacao/manual_marcacion/instalacion_markup_paths.html)
+
+### Verifique que pip se haya instalado correctamente
+
+`pip` es necesario para la instalación de Jupyter. Para verificar su instalación, use el comando `python -m pip --version` en la consola.
 
